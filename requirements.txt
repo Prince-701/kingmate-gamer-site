@@ -1,3 +1,8 @@
+git add app.py requirements.txt
+git commit -m "Add deploy config and requirements"
+git push origin master
+
+
 flask
 flask_sqlalchemy
 flask_bcrypt
