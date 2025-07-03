@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Upload Game{% endblock %}
+{% block content %}
+  <h2>Upload a New Game</h2>
+  <form method="POST">
+    <input type="text" name="title" placeholder="Game Title" required><br>
+    <textarea name="description" placeholder="Game Description" required></textarea><br>
+    <input type="text" name="image_url" placeholder="Image URL (optional)"><br>
+    <button type="submit">Upload Game</button>
+  </form>
+{% endblock %}
